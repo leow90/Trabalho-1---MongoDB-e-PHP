@@ -48,7 +48,7 @@ $estudantes = $collection->find();
                         <td><?= $estudante['mae'] ?></td>
                         <td><?= $estudante['pai'] ?></td>
                         <td>
-                            <!-- Ações para editar ou excluir -->
+                            <!-- Ações para editar ou finalizar -->
                             <a href="editar_estudante.php?id=<?= $estudante['_id'] ?>">Editar</a> |
                             <a href="excluir_estudante.php?id=<?= $estudante['_id'] ?>" onclick="return confirm('Tem certeza que deseja excluir?')">Excluir</a>
                         </td>
